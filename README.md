@@ -1,6 +1,12 @@
 # 🩺🛡️ MedShield AI — HIPAA-Compliant Clinical Copilot
 
-> **Enterprise Clinical Intelligence Platform powered by Amazon Bedrock (Nova), Bedrock Guardrails, and Amazon Redshift**
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medshield-ai-jzzal6fn3ty9govidakazx.streamlit.app/)
+[![AWS Architecture](https://img.shields.io/badge/AWS-Architecture%20Spec-232F3E?logo=amazon-aws)](docs/AWS_ARCHITECTURE.md)
+[![CloudFormation](https://img.shields.io/badge/IaC-CloudFormation%20Stack-FF9900?logo=amazon-aws)](infrastructure/medshield_aws_stack.yaml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> **Enterprise Clinical Intelligence Platform powered by Amazon Bedrock (Nova), Bedrock Guardrails, Amazon S3, and Amazon Redshift**  
+> 🔗 **Live Demo URL:** [https://medshield-ai-jzzal6fn3ty9govidakazx.streamlit.app/](https://medshield-ai-jzzal6fn3ty9govidakazx.streamlit.app/)
 
 ## 🎯 What It Does
 MedShield AI is a production-grade clinical copilot that helps doctors and healthcare professionals:
