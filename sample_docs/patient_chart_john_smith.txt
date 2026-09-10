@@ -1,0 +1,182 @@
+PATIENT CLINICAL CHART
+=====================
+
+PATIENT INFORMATION
+-------------------
+Name: John A. Smith
+Date of Birth: March 15, 1965
+Medical Record Number (MRN): MRN-2026-04821
+Gender: Male
+Blood Type: A+
+Insurance: Medicare Part B
+Primary Care Physician: Dr. Sarah Chen, MD (Internal Medicine)
+Emergency Contact: Mary Smith (Spouse) — (555) 234-7891
+
+ADMISSION DETAILS
+-----------------
+Admission Date: August 15, 2026
+Admission Type: Emergency
+Department: Cardiology — Cardiac Care Unit (CCU)
+Attending Physician: Dr. Sarah Chen, MD
+Admitting Diagnosis: Acute ST-Elevation Myocardial Infarction (STEMI)
+ICD-10 Code: I21.0 — Acute transmural myocardial infarction of anterior wall
+
+CHIEF COMPLAINT
+---------------
+65-year-old male presenting to Emergency Department via ambulance with acute onset 
+substernal chest pressure radiating to left arm and jaw, associated with diaphoresis, 
+nausea, and dyspnea. Symptoms began approximately 3 hours prior to arrival while 
+mowing the lawn. Pain rated 8/10 on numeric scale. No relief with rest.
+
+PAST MEDICAL HISTORY
+---------------------
+1. Type 2 Diabetes Mellitus (diagnosed 2018) — currently on Metformin 500mg BID
+2. Essential Hypertension (diagnosed 2015) — controlled on Lisinopril 10mg daily
+3. Hyperlipidemia (diagnosed 2016) — on Atorvastatin 20mg daily
+4. Former smoker: 30 pack-year history, quit 5 years ago (2021)
+5. Family History: Father deceased at age 58 from MI; mother alive with HTN
+6. No known drug allergies (NKDA)
+
+SURGICAL HISTORY
+----------------
+- Appendectomy (1992)
+- Right knee arthroscopy (2010)
+
+VITAL SIGNS ON ADMISSION
+-------------------------
+Blood Pressure: 158/95 mmHg (Hypertensive)
+Heart Rate: 102 bpm (Tachycardic)
+Respiratory Rate: 22 breaths/min (Tachypneic)
+SpO2: 94% on room air (Borderline low)
+Temperature: 98.6°F (37.0°C) (Normal)
+Weight: 95 kg (209 lbs)
+Height: 5'10" (178 cm)
+BMI: 30.1 (Obese Class I)
+
+PHYSICAL EXAMINATION
+--------------------
+General: Alert, anxious male in moderate distress, diaphoretic
+HEENT: Pupils equal and reactive, no JVD noted
+Cardiovascular: Tachycardic, regular rhythm, S3 gallop appreciated, no murmurs
+Respiratory: Bilateral basilar crackles, no wheezing
+Abdomen: Soft, non-tender, non-distended, normal bowel sounds
+Extremities: No peripheral edema, pulses 2+ bilaterally
+Neurological: Alert and oriented x3, no focal deficits
+
+ELECTROCARDIOGRAM (ECG) FINDINGS
+---------------------------------
+Date: August 15, 2026 — 14:22 EST
+Interpretation: Sinus tachycardia at 102 bpm
+- ST-segment elevation in leads V1, V2, V3, V4 (2-4mm)
+- Reciprocal ST depression in leads II, III, aVF
+- Consistent with Acute Anterior STEMI
+- No prior ECG available for comparison
+
+LABORATORY RESULTS — ADMISSION
+-------------------------------
+Test                    Result      Reference Range     Flag
+------------------------------------------------------------------------
+Troponin I              0.85 ng/mL  < 0.04 ng/mL       HIGH ⚠️
+Troponin I (6hr repeat) 4.20 ng/mL  < 0.04 ng/mL       HIGH ⚠️ (Rising)
+BNP                     450 pg/mL   < 100 pg/mL         HIGH ⚠️
+CK-MB                   38.5 U/L    0 - 7.7 U/L         HIGH ⚠️
+Blood Glucose (Fasting) 195 mg/dL   70 - 100 mg/dL      HIGH ⚠️
+HbA1c                   7.8%        4.0 - 5.6%           HIGH ⚠️
+Total Cholesterol       265 mg/dL   < 200 mg/dL          HIGH ⚠️
+LDL Cholesterol         175 mg/dL   < 100 mg/dL          HIGH ⚠️
+HDL Cholesterol         35 mg/dL    > 40 mg/dL           LOW ⚠️
+Triglycerides           275 mg/dL   < 150 mg/dL          HIGH ⚠️
+Creatinine              1.3 mg/dL   0.7 - 1.2 mg/dL     HIGH (Borderline)
+BUN                     22 mg/dL    7 - 20 mg/dL         HIGH (Borderline)
+eGFR                    58 mL/min   > 60 mL/min          LOW ⚠️ (Stage 3a CKD)
+Hemoglobin              14.2 g/dL   13.5 - 17.5 g/dL     Normal
+WBC Count               11,800      4,500 - 11,000       HIGH (Mild leukocytosis)
+Platelet Count          245,000     150,000 - 400,000    Normal
+INR                     1.0         0.8 - 1.2            Normal
+Potassium               4.1 mEq/L  3.5 - 5.0 mEq/L     Normal
+Sodium                  139 mEq/L  136 - 145 mEq/L      Normal
+
+IMAGING STUDIES
+---------------
+Chest X-Ray (Aug 15, 2026):
+- Mild cardiomegaly
+- Bilateral pulmonary vascular congestion
+- No pleural effusions
+- No pneumothorax
+
+Echocardiogram (Aug 16, 2026):
+- Left ventricular ejection fraction (LVEF): 35% (Reduced — Normal > 55%)
+- Anterior wall hypokinesis
+- Mild mitral regurgitation
+- No pericardial effusion
+- Left atrial enlargement (mild)
+
+TREATMENT & INTERVENTIONS
+--------------------------
+1. Emergency PCI (Percutaneous Coronary Intervention) — Aug 15, 2026
+   - Left Anterior Descending (LAD) artery: 95% occlusion identified
+   - Drug-Eluting Stent (DES) placed successfully
+   - TIMI Flow Grade 3 restored (complete reperfusion)
+   - Door-to-balloon time: 62 minutes
+
+2. Post-PCI Medications:
+   - Aspirin 81mg daily (lifelong)
+   - Clopidogrel (Plavix) 75mg daily (minimum 12 months)
+   - Metoprolol Succinate 25mg daily (beta-blocker for heart rate control)
+   - Lisinopril increased to 20mg daily (ACE inhibitor for cardiac remodeling)
+   - Atorvastatin increased to 80mg daily (high-intensity statin)
+   - Metformin 500mg BID (continued for diabetes)
+   - Nitroglycerin 0.4mg sublingual PRN (for chest pain)
+
+3. Cardiac Rehabilitation: Referral placed for outpatient Phase II cardiac rehab
+
+HOSPITAL COURSE
+---------------
+Day 1 (Aug 15): Emergent PCI with LAD stenting. Post-procedure stable.
+Day 2 (Aug 16): Echocardiogram showed LVEF 35%. Started beta-blocker.
+Day 3-5 (Aug 17-19): Telemetry monitoring, no arrhythmias. Blood glucose 
+    management with endocrinology consult. HbA1c of 7.8% — Metformin continued,
+    diet counseling provided.
+Day 6-7 (Aug 20-21): Ambulating independently. Chest pain-free.
+    Cardiac rehab education completed.
+
+DISCHARGE SUMMARY
+-----------------
+Discharge Date: August 22, 2026 (7-day stay)
+Discharge Condition: Stable, improved
+Discharge Disposition: Home with outpatient follow-up
+
+DISCHARGE DIAGNOSES:
+1. Acute anterior STEMI, s/p PCI with DES to LAD (Primary)
+2. Type 2 Diabetes Mellitus, uncontrolled (HbA1c 7.8%)
+3. Essential Hypertension
+4. Hyperlipidemia (LDL 175, Total Cholesterol 265)
+5. Obesity Class I (BMI 30.1)
+6. Stage 3a Chronic Kidney Disease (eGFR 58)
+7. Reduced LVEF 35% (Heart failure with reduced EF)
+
+DISCHARGE MEDICATIONS:
+1. Aspirin 81mg — once daily (DO NOT STOP)
+2. Clopidogrel 75mg — once daily for 12 months (DO NOT STOP)
+3. Metoprolol Succinate 25mg — once daily
+4. Lisinopril 20mg — once daily
+5. Atorvastatin 80mg — once daily at bedtime
+6. Metformin 500mg — twice daily with meals
+7. Nitroglycerin 0.4mg SL — as needed for chest pain
+
+FOLLOW-UP APPOINTMENTS:
+- Cardiology (Dr. Sarah Chen): 1 week post-discharge (Aug 29, 2026)
+- Endocrinology (Dr. Raj Patel): 2 weeks post-discharge (Sep 5, 2026)
+- Nephrology Referral: Pending (for Stage 3a CKD evaluation)
+- Cardiac Rehabilitation: Phase II — Starting Sep 1, 2026
+
+PATIENT EDUCATION PROVIDED:
+- Heart-healthy diet (low sodium, low saturated fat)
+- Smoking cessation reinforcement
+- Diabetes self-management and glucose monitoring
+- When to call 911 (recurrent chest pain, shortness of breath)
+- Medication compliance — especially dual antiplatelet therapy (Aspirin + Plavix)
+
+PREPARED BY: Dr. Sarah Chen, MD, FACC
+DATE: August 22, 2026
+SIGNATURE: [Electronically Signed]

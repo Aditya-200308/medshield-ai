@@ -1,0 +1,124 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  MedShield AI — HIPAA-Compliant Clinical Intelligence Platform
+  AWS CloudFormation Infrastructure Stack
+  Deploys Amazon S3, Amazon Redshift Serverless, and IAM policies for Bedrock & Redshift Data API.
+
+Parameters:
+  EnvironmentName:
+    Type: String
+    Default: production
+    Description: Deployment environment (production, staging, dev)
+
+  S3BucketName:
+    Type: String
+    Default: medshield-clinical-723370474144
+    Description: S3 Bucket for HIPAA clinical document repository
+
+  RedshiftWorkgroupName:
+    Type: String
+    Default: medshield-workgroup
+    Description: Name of the Amazon Redshift Serverless Workgroup
+
+  RedshiftDbName:
+    Type: String
+    Default: medshield_db
+    Description: Primary clinical analytics database name
+
+  BaseRPUCapacity:
+    Type: Number
+    Default: 8
+    Description: Redshift Processing Units (RPU) base capacity
+
+Resources:
+  # ═══════════════════════════════════════════════════════════════
+  # 1. Amazon S3 — HIPAA Document Lakehouse
+  # ═══════════════════════════════════════════════════════════════
+  ClinicalDocumentBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref S3BucketName
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+      Tags:
+        - Key: Project
+          Value: MedShield-AI
+        - Key: Compliance
+          Value: HIPAA-Safe-Harbor
+
+  # ═══════════════════════════════════════════════════════════════
+  # 2. IAM Service Role for Redshift Serverless & Data API
+  # ═══════════════════════════════════════════════════════════════
+  RedshiftServiceRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub medshield-redshift-role-${EnvironmentName}
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - redshift.amazonaws.com
+                - redshift-serverless.amazonaws.com
+            Action:
+              - sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonRedshiftAllCommandsFullAccess
+        - arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+
+  # ═══════════════════════════════════════════════════════════════
+  # 3. Amazon Redshift Serverless Namespace & Workgroup
+  # ═══════════════════════════════════════════════════════════════
+  ClinicalNamespace:
+    Type: AWS::RedshiftServerless::Namespace
+    Properties:
+      NamespaceName: !Sub ${RedshiftWorkgroupName}-ns
+      DbName: !Ref RedshiftDbName
+      IamRoles:
+        - !GetAtt RedshiftServiceRole.Arn
+      Tags:
+        - Key: Project
+          Value: MedShield-AI
+        - Key: Service
+          Value: Redshift-Serverless
+
+  ClinicalWorkgroup:
+    Type: AWS::RedshiftServerless::Workgroup
+    DependsOn: ClinicalNamespace
+    Properties:
+      WorkgroupName: !Ref RedshiftWorkgroupName
+      NamespaceName: !Ref ClinicalNamespace
+      BaseCapacity: !Ref BaseRPUCapacity
+      PubliclyAccessible: false
+      Tags:
+        - Key: Project
+          Value: MedShield-AI
+
+Outputs:
+  S3BucketArn:
+    Description: ARN of the HIPAA Document S3 Bucket
+    Value: !GetAtt ClinicalDocumentBucket.Arn
+    Export:
+      Name: !Sub ${AWS::StackName}-S3BucketArn
+
+  RedshiftNamespaceArn:
+    Description: ARN of the Redshift Serverless Namespace
+    Value: !GetAtt ClinicalNamespace.Arn
+    Export:
+      Name: !Sub ${AWS::StackName}-RedshiftNamespaceArn
+
+  RedshiftWorkgroupArn:
+    Description: ARN of the Redshift Serverless Workgroup
+    Value: !GetAtt ClinicalWorkgroup.Arn
+    Export:
+      Name: !Sub ${AWS::StackName}-RedshiftWorkgroupArn

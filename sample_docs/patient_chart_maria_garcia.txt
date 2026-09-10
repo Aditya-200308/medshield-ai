@@ -1,0 +1,183 @@
+PATIENT CLINICAL CHART
+=====================
+
+PATIENT INFORMATION
+-------------------
+Name: Maria L. Garcia
+Date of Birth: July 22, 1978
+Medical Record Number (MRN): MRN-2026-07293
+Gender: Female
+Blood Type: O+
+Insurance: BlueCross BlueShield PPO
+Primary Care Physician: Dr. James Wilson, MD (Family Medicine)
+Emergency Contact: Carlos Garcia (Husband) — (555) 891-3456
+
+ADMISSION DETAILS
+-----------------
+Admission Date: September 3, 2026
+Admission Type: Scheduled (Elective)
+Department: Oncology — Breast Cancer Center
+Attending Physician: Dr. Priya Patel, MD (Oncology)
+Admitting Diagnosis: Invasive Ductal Carcinoma, Left Breast
+ICD-10 Code: C50.912 — Malignant neoplasm of unspecified site of left female breast
+
+CHIEF COMPLAINT
+---------------
+48-year-old female referred from primary care after routine mammogram on August 20, 
+2026 revealed a 2.3 cm spiculated mass in the upper outer quadrant of the left breast.
+Subsequent core needle biopsy (August 28, 2026) confirmed invasive ductal carcinoma,
+Grade 2, ER+/PR+/HER2-negative. Patient reports no breast pain, no nipple discharge,
+and no palpable axillary lymphadenopathy. She noticed a small lump during self-exam 
+approximately 6 weeks ago but delayed evaluation.
+
+PAST MEDICAL HISTORY
+---------------------
+1. Generalized Anxiety Disorder (diagnosed 2019) — on Sertraline 50mg daily
+2. Iron Deficiency Anemia (intermittent, last episode 2024)
+3. Seasonal Allergies — loratadine PRN
+4. No prior malignancies
+5. Menarche age 12, G2P2 (two children, ages 15 and 12, both vaginal deliveries)
+6. No prior breast biopsies before this episode
+7. Non-smoker, social alcohol use (1-2 glasses wine per week)
+8. Family History: Mother diagnosed with breast cancer at age 62 (Stage II, survived)
+                   Maternal aunt with ovarian cancer (deceased age 55)
+9. No known drug allergies (NKDA)
+
+VITAL SIGNS ON ADMISSION
+-------------------------
+Blood Pressure: 128/78 mmHg (Normal)
+Heart Rate: 76 bpm (Normal)
+Respiratory Rate: 16 breaths/min (Normal)
+SpO2: 99% on room air (Normal)
+Temperature: 98.2°F (36.8°C) (Normal)
+Weight: 68 kg (150 lbs)
+Height: 5'6" (168 cm)
+BMI: 24.2 (Normal)
+
+LABORATORY RESULTS — PRE-OPERATIVE
+------------------------------------
+Test                    Result      Reference Range     Flag
+------------------------------------------------------------------------
+Hemoglobin              10.8 g/dL   12.0 - 16.0 g/dL   LOW ⚠️
+Hematocrit              33.2%       36.0 - 46.0%        LOW ⚠️
+MCV                     78 fL       80 - 100 fL          LOW ⚠️ (Microcytic)
+Ferritin                12 ng/mL    12 - 150 ng/mL       LOW (Borderline)
+Iron                    45 mcg/dL   60 - 170 mcg/dL      LOW ⚠️
+TIBC                    420 mcg/dL  250 - 370 mcg/dL     HIGH ⚠️
+WBC Count               6,800       4,500 - 11,000       Normal
+Platelet Count          278,000     150,000 - 400,000    Normal
+BUN                     14 mg/dL    7 - 20 mg/dL         Normal
+Creatinine              0.8 mg/dL   0.5 - 1.1 mg/dL     Normal
+Glucose (Fasting)       92 mg/dL    70 - 100 mg/dL       Normal
+Liver Function Panel    Normal      —                    Normal
+CA 15-3                 28.5 U/mL   < 30 U/mL           Normal (Borderline)
+CEA                     2.1 ng/mL   < 5.0 ng/mL          Normal
+
+PATHOLOGY REPORT (Core Needle Biopsy — August 28, 2026)
+--------------------------------------------------------
+Specimen: Left breast, upper outer quadrant, core needle biopsy (4 cores)
+Diagnosis: INVASIVE DUCTAL CARCINOMA, GRADE 2 (Nottingham Score 6/9)
+
+Receptor Status:
+  - Estrogen Receptor (ER): POSITIVE (95% nuclear staining, Allred Score 8/8)
+  - Progesterone Receptor (PR): POSITIVE (80% nuclear staining, Allred Score 7/8)
+  - HER2/neu: NEGATIVE (IHC Score 1+)
+  - Ki-67 Proliferation Index: 18% (Intermediate)
+
+Molecular Subtype: Luminal A-like (ER+/PR+/HER2-, low Ki-67)
+  → Generally favorable prognosis with endocrine therapy
+
+IMAGING STUDIES
+---------------
+Mammogram (Aug 20, 2026):
+- BI-RADS 5 (Highly suggestive of malignancy)
+- 2.3 cm spiculated mass, upper outer quadrant, left breast
+- No calcifications
+- No contralateral findings
+
+Breast MRI (Sep 1, 2026):
+- Confirmed 2.3 x 2.1 x 1.8 cm enhancing mass, left breast
+- No multicentric or multifocal disease
+- No chest wall involvement
+- Two suspicious left axillary lymph nodes (1.2 cm and 0.8 cm)
+
+CT Chest/Abdomen/Pelvis (Sep 2, 2026):
+- No evidence of distant metastatic disease
+- Lungs clear, liver clear, no bone lesions
+- Consistent with Stage IIA disease (T2 N0-N1 M0)
+
+ONCOTYPE DX GENOMIC TESTING (Results received Sep 8, 2026)
+-----------------------------------------------------------
+Recurrence Score: 14 (LOW RISK)
+  → 10-year distant recurrence risk with endocrine therapy alone: 8%
+  → Recommendation: Endocrine therapy alone may be sufficient
+     (chemotherapy benefit is minimal for RS < 16 in postmenopausal women;
+      however, patient is premenopausal — oncology MDT discussion recommended)
+
+SURGICAL INTERVENTION
+---------------------
+Procedure: Left Breast Lumpectomy with Sentinel Lymph Node Biopsy (SLNB)
+Date: September 4, 2026
+Surgeon: Dr. Michael Torres, MD, FACS (Breast Surgery)
+
+Operative Findings:
+- 2.4 cm tumor excised with negative margins (closest margin 5mm)
+- Sentinel lymph node biopsy: 2 nodes identified and removed
+  - Node 1: NEGATIVE for metastatic carcinoma
+  - Node 2: NEGATIVE for metastatic carcinoma
+- Estimated blood loss: 50 mL
+- No complications
+
+FINAL STAGING: Stage IA (pT2 pN0 M0)
+  → Tumor > 2cm but ≤ 5cm, no lymph node involvement, no distant metastasis
+
+TREATMENT PLAN (Multidisciplinary Tumor Board — Sep 8, 2026)
+-------------------------------------------------------------
+1. RADIATION THERAPY: Whole breast radiation therapy (WBRT)
+   - 40 Gy in 15 fractions (hypofractionated protocol)
+   - To begin 4-6 weeks post-surgery (target: October 2026)
+
+2. ENDOCRINE THERAPY:
+   - Tamoxifen 20mg daily for 5-10 years (premenopausal patient)
+   - Consider ovarian function suppression (GnRH agonist) pending discussion
+   - Start after completion of radiation
+
+3. CHEMOTHERAPY: NOT RECOMMENDED
+   - Based on Oncotype DX RS of 14 (low risk)
+   - Discussed at MDT — consensus to omit chemotherapy
+
+4. GENETIC COUNSELING:
+   - Referred for BRCA1/BRCA2 testing given family history
+     (mother with breast cancer, maternal aunt with ovarian cancer)
+   - Appointment scheduled: September 15, 2026
+
+CURRENT MEDICATIONS
+-------------------
+1. Sertraline 50mg — once daily (for anxiety)
+2. Ferrous Sulfate 325mg — twice daily with vitamin C (for iron deficiency anemia)
+3. Loratadine 10mg — as needed (allergies)
+4. Acetaminophen 500mg — every 6 hours as needed (post-surgical pain)
+
+DISCHARGE SUMMARY
+-----------------
+Discharge Date: September 5, 2026 (2-day stay)
+Discharge Condition: Stable, post-operative day 1
+Discharge Disposition: Home
+
+FOLLOW-UP APPOINTMENTS:
+- Surgical follow-up (Dr. Torres): September 12, 2026
+- Oncology (Dr. Priya Patel): September 15, 2026
+- Radiation Oncology Consultation: September 22, 2026
+- Genetic Counseling (BRCA testing): September 15, 2026
+
+PATIENT EDUCATION PROVIDED:
+- Wound care for lumpectomy site
+- Signs of infection to watch for (redness, swelling, drainage, fever)
+- Activity restrictions (no heavy lifting > 10 lbs for 2 weeks)
+- Importance of follow-up for radiation planning
+- Emotional support resources and breast cancer support group referral
+- Discussion of Tamoxifen side effects (hot flashes, risk of endometrial changes)
+
+PREPARED BY: Dr. Priya Patel, MD (Medical Oncology)
+DATE: September 5, 2026
+SIGNATURE: [Electronically Signed]
